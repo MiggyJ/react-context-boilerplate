@@ -3,12 +3,12 @@ import React from 'react'
 import { GlobalProvider } from './context/GlobalState'
 
 // Pages
-import Greeting from './pages/Greeting'
+import Home from './pages/Home'
 
 const App = () => {
   return (
     <GlobalProvider>
-      <Greeting />
+      <Home />
     </GlobalProvider>
   )
 }
