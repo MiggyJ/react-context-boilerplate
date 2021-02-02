@@ -2,8 +2,8 @@ import React from 'react'
 // Context Provider
 import { GlobalProvider } from './context/GlobalState'
 
-// Components
-import Greeting from './components/layouts/Greeting'
+// Pages
+import Greeting from './pages/Greeting'
 
 const App = () => {
   return (

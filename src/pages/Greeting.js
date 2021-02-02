@@ -1,7 +1,7 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 
 // Context
-import { GlobalContext } from '../../context/GlobalState'
+import { GlobalContext } from '../context/GlobalState'
 
 const style = {
     height: '100vh',
